@@ -1,0 +1,16 @@
+:root{--bg:#f5f6f8;--kartu:#fff;--teks:#161616;--redup:#5c6370;--biru:#1566f4;--garis:#e3e6ea}
+@media (prefers-color-scheme:dark){:root{--bg:#101114;--kartu:#181a1f;--teks:#ececec;--redup:#9aa1ad;--biru:#6ea0ff;--garis:#2a2d34}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--teks);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:2.5rem 1rem 4rem}
+header.merek{max-width:46rem;margin:0 auto;padding:1.5rem 1rem 0;font-weight:700;font-size:1.15rem}
+header.merek span{color:var(--biru)}
+.kartu{background:var(--kartu);border:1px solid var(--garis);border-radius:1.25rem;padding:1.5rem 1.4rem;margin:1.2rem 0}
+h1{font-size:2rem;line-height:1.15;margin:.2rem 0 1rem}
+h2{font-size:1.15rem;margin:1.6rem 0 .4rem}
+p,li{color:var(--teks)}
+.redup{color:var(--redup);font-size:.9rem}
+a{color:var(--biru)}
+ul{padding-left:1.2rem}
+nav.bawah{margin-top:2rem;font-size:.9rem;color:var(--redup)}
+nav.bawah a{margin-right:1rem}
